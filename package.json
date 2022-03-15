@@ -1,0 +1,7 @@
+{
+  "name": "typeScript-blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cgm-style/typeScript-blockchain.git",
+  "license": "MIT"
+}
