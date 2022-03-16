@@ -5,7 +5,12 @@
   "repository": "https://github.com/cgm-style/typeScript-blockchain.git",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "yarn tsc"
+    "start": "tsc-watch --onSuccess \" node index.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "tsc-watch": "^4.6.2",
+    "typescript": "^4.6.2"
   }
 }
